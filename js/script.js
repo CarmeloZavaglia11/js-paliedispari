@@ -3,7 +3,7 @@ var parolaUtente = prompt('inserisci una parola');
 
 // CONTROLLI INPUT
 var numeri = RegExp('[0-9]' );
-var carSpec = /^[!@#$%^&*()+=,./{}|:<>?]^/;
+var carSpec = RegExp('[!@#$%^&*()+=,./{}|:<>?]');
 
 while((numeri.test(parolaUtente) == true) || (carSpec.test(parolaUtente) == true) || parolaUtente == ''){
    alert('parola non valida');
