@@ -32,8 +32,8 @@ function palindroma(parola) {
 // funzione con funzioni
 
 // function palindromauno(parola) {
-//     var reverseString = parolaUtente.split('').reverse().join('');
-//     if (reverseString == parolaUtente) {
+//     var reverseString = parola.split('').reverse().join('');
+//     if (reverseString == parola) {
 //         return "E' una parola palindroma";
 //     }  else {
 //         return "Non è una parola palindroma";
